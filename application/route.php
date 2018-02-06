@@ -41,7 +41,9 @@ Route::post('api/:version/Pay','api/:version.Pay/pay');
 
 
 //  User
-
+Route::post('api/:version/User/signin','api/:version.User/signin');
+Route::get('api/:version/User/sign/record/:id','api/:version.User/getSignRecordByUserID',[],['id'=>'\d+']);
+Route::get('api/:version/User/sign/record/all','api/:version.User/getAllSignRecord');
 //  Class
 
 //  Record

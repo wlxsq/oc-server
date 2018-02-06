@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b890a66c-90dd-46f3-a71f-81fa10f77e7a" name="Default" comment="" />
+    <list default="true" id="b890a66c-90dd-46f3-a71f-81fa10f77e7a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/api/validate/NewSignin.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/application/api/controller/v1/User.php" afterPath="$PROJECT_DIR$/application/api/controller/v1/User.php" />
+      <change beforePath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" afterPath="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
+      <change beforePath="$PROJECT_DIR$/application/route.php" afterPath="$PROJECT_DIR$/application/route.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,54 +31,27 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Staff.php">
+    <leaf>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/api/controller/v1/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="682">
+              <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
               <folding>
-                <element signature="e#575#902#0#PHP" expanded="false" />
-                <element signature="e#904#1103#0#PHP" expanded="false" />
-                <element signature="e#1032#1083#0#PHP" expanded="false" />
-                <element signature="e#1107#1242#0#PHP" expanded="false" />
-                <element signature="e#1244#1773#0#PHP" expanded="false" />
-                <element signature="e#1441#1506#0#PHP" expanded="false" />
-                <element signature="e#1663#1728#0#PHP" expanded="false" />
-                <element signature="e#1777#2011#0#PHP" expanded="false" />
-                <element signature="e#2013#2202#0#PHP" expanded="false" />
-                <element signature="e#2108#2175#0#PHP" expanded="false" />
+                <element signature="e#120#161#0#PHP" expanded="true" />
+                <element signature="e#429#566#0#PHP" expanded="false" />
+                <element signature="e#568#971#0#PHP" expanded="false" />
+                <element signature="e#977#1285#0#PHP" expanded="false" />
+                <element signature="e#1290#1623#0#PHP" expanded="false" />
+                <element signature="e#1629#1877#0#PHP" expanded="false" />
+                <element signature="e#1882#2095#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <element signature="e#333#662#0#PHP" expanded="false" />
-                <element signature="e#1311#1437#0#PHP" expanded="false" />
-                <element signature="e#1439#1732#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Staff.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/model/Staff.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewDetailCourse.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/validate/NewDetailCourse.php">
+      <file leaf-file-name="CourseDetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/model/CourseDetail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -81,17 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewNews.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/validate/NewNews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Course.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Course.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/model/Course.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -101,239 +70,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pay.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
+      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#120#148#0#PHP" expanded="true" />
-                <element signature="e#434#503#0#PHP" expanded="false" />
-                <element signature="e#1194#1232#0#PHP" expanded="false" />
-                <element signature="e#1234#1370#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxPay.Data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/model/WxPay/WxPay.Data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="269" column="6" lean-forward="false" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
-              <folding>
-                <element signature="e#104#199#0#PHP" expanded="false" />
-                <element signature="e#255#305#0#PHP" expanded="false" />
-                <element signature="n#SetSign#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#418#458#0#PHP" expanded="false" />
-                <element signature="n#GetSign#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#525#578#0#PHP" expanded="false" />
-                <element signature="n#IsSignSet#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#665#712#0#PHP" expanded="false" />
-                <element signature="n#ToXml#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#1153#1239#0#PHP" expanded="false" />
-                <element signature="n#FromXml#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#1572#1599#0#PHP" expanded="false" />
-                <element signature="n#ToUrlParams#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#1834#1903#0#PHP" expanded="false" />
-                <element signature="n#MakeSign#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#2200#2219#0#PHP" expanded="false" />
-                <element signature="n#GetValues#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-                <element signature="e#2282#2321#0#PHP" expanded="false" />
-                <element signature="n#WxPayResults#0;n#!!top" expanded="false" />
-                <element signature="e#3522#3559#0#PHP" expanded="false" />
-                <element signature="n#WxPayNotifyReply#0;n#!!top" expanded="false" />
-                <element signature="e#4353#4393#0#PHP" expanded="false" />
-                <element signature="e#4444#4494#0#PHP" expanded="false" />
-                <element signature="n#SetAppid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#4571#4611#0#PHP" expanded="false" />
-                <element signature="n#GetAppid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#4680#4733#0#PHP" expanded="false" />
-                <element signature="n#IsAppidSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#4822#4871#0#PHP" expanded="false" />
-                <element signature="n#SetMch_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#4950#4989#0#PHP" expanded="false" />
-                <element signature="n#GetMch_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5060#5112#0#PHP" expanded="false" />
-                <element signature="n#IsMch_idSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5203#5260#0#PHP" expanded="false" />
-                <element signature="n#SetDevice_info#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5349#5396#0#PHP" expanded="false" />
-                <element signature="n#GetDevice_info#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5477#5537#0#PHP" expanded="false" />
-                <element signature="n#IsDevice_infoSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5638#5699#0#PHP" expanded="false" />
-                <element signature="n#SetNonce_str#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5784#5835#0#PHP" expanded="false" />
-                <element signature="n#GetNonce_str#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#5912#5976#0#PHP" expanded="false" />
-                <element signature="n#IsNonce_strSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6073#6122#0#PHP" expanded="false" />
-                <element signature="n#SetBody#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6197#6236#0#PHP" expanded="false" />
-                <element signature="n#GetBody#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6303#6355#0#PHP" expanded="false" />
-                <element signature="n#IsBodySet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6442#6489#0#PHP" expanded="false" />
-                <element signature="n#SetDetail#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6568#6605#0#PHP" expanded="false" />
-                <element signature="n#GetDetail#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6676#6726#0#PHP" expanded="false" />
-                <element signature="n#IsDetailSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6817#6897#0#PHP" expanded="false" />
-                <element signature="n#SetAttach#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#6976#7046#0#PHP" expanded="false" />
-                <element signature="n#GetAttach#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#7117#7200#0#PHP" expanded="false" />
-                <element signature="n#IsAttachSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#7291#7365#0#PHP" expanded="false" />
-                <element signature="n#SetOut_trade_no#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#7456#7520#0#PHP" expanded="false" />
-                <element signature="n#GetOut_trade_no#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#7603#7680#0#PHP" expanded="false" />
-                <element signature="n#IsOut_trade_noSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#7783#7863#0#PHP" expanded="false" />
-                <element signature="n#SetFee_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#7946#8016#0#PHP" expanded="false" />
-                <element signature="n#GetFee_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#8091#8174#0#PHP" expanded="false" />
-                <element signature="n#IsFee_typeSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#8269#8326#0#PHP" expanded="false" />
-                <element signature="n#SetTotal_fee#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#8411#8458#0#PHP" expanded="false" />
-                <element signature="n#GetTotal_fee#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#8535#8595#0#PHP" expanded="false" />
-                <element signature="n#IsTotal_feeSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#8692#8771#0#PHP" expanded="false" />
-                <element signature="n#SetSpbill_create_ip#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#8870#8939#0#PHP" expanded="false" />
-                <element signature="n#GetSpbill_create_ip#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#9030#9112#0#PHP" expanded="false" />
-                <element signature="n#IsSpbill_create_ipSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#9223#9333#0#PHP" expanded="false" />
-                <element signature="n#SetTime_start#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#9420#9520#0#PHP" expanded="false" />
-                <element signature="n#GetTime_start#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#9599#9712#0#PHP" expanded="false" />
-                <element signature="n#IsTime_startSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#9811#9921#0#PHP" expanded="false" />
-                <element signature="n#SetTime_expire#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#10010#10110#0#PHP" expanded="false" />
-                <element signature="n#GetTime_expire#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#10191#10304#0#PHP" expanded="false" />
-                <element signature="n#IsTime_expireSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#10405#10475#0#PHP" expanded="false" />
-                <element signature="n#SetGoods_tag#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#10560#10620#0#PHP" expanded="false" />
-                <element signature="n#GetGoods_tag#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#10697#10770#0#PHP" expanded="false" />
-                <element signature="n#IsGoods_tagSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#10867#10920#0#PHP" expanded="false" />
-                <element signature="n#SetNotify_url#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11007#11050#0#PHP" expanded="false" />
-                <element signature="n#GetNotify_url#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11129#11185#0#PHP" expanded="false" />
-                <element signature="n#IsNotify_urlSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11284#11354#0#PHP" expanded="false" />
-                <element signature="n#SetTrade_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11441#11501#0#PHP" expanded="false" />
-                <element signature="n#GetTrade_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11580#11653#0#PHP" expanded="false" />
-                <element signature="n#IsTrade_typeSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11752#11838#0#PHP" expanded="false" />
-                <element signature="n#SetProduct_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#11925#12001#0#PHP" expanded="false" />
-                <element signature="n#GetProduct_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#12080#12169#0#PHP" expanded="false" />
-                <element signature="n#IsProduct_idSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#12268#12382#0#PHP" expanded="false" />
-                <element signature="n#SetOpenid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#12461#12565#0#PHP" expanded="false" />
-                <element signature="n#GetOpenid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#12636#12753#0#PHP" expanded="false" />
-                <element signature="n#IsOpenidSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-                <element signature="e#12846#12886#0#PHP" expanded="false" />
-                <element signature="n#WxPayOrderQuery#0;n#!!top" expanded="false" />
-                <element signature="e#15065#15105#0#PHP" expanded="false" />
-                <element signature="n#WxPayCloseOrder#0;n#!!top" expanded="false" />
-                <element signature="e#16811#16851#0#PHP" expanded="false" />
-                <element signature="n#WxPayRefund#0;n#!!top" expanded="false" />
-                <element signature="e#21941#21981#0#PHP" expanded="false" />
-                <element signature="n#WxPayRefundQuery#0;n#!!top" expanded="false" />
-                <element signature="e#25651#25692#0#PHP" expanded="false" />
-                <element signature="n#WxPayDownloadBill#0;n#!!top" expanded="false" />
-                <element signature="e#28414#28454#0#PHP" expanded="false" />
-                <element signature="n#WxPayReport#0;n#!!top" expanded="false" />
-                <element signature="e#35432#35472#0#PHP" expanded="false" />
-                <element signature="n#WxPayShortUrl#0;n#!!top" expanded="false" />
-                <element signature="e#37167#37207#0#PHP" expanded="false" />
-                <element signature="n#WxPayMicroPay#0;n#!!top" expanded="false" />
-                <element signature="e#44083#44121#0#PHP" expanded="false" />
-                <element signature="n#WxPayReverse#0;n#!!top" expanded="false" />
-                <element signature="e#46429#46472#0#PHP" expanded="false" />
-                <element signature="n#WxPayJsApiPay#0;n#!!top" expanded="false" />
-                <element signature="e#48803#48849#0#PHP" expanded="false" />
-                <element signature="n#WxPayBizPayUrl#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxPay.Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/model/WxPay/WxPay.Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-              <folding>
-                <element signature="e#105#527#0#PHP" expanded="false" />
-                <element signature="e#757#923#0#PHP" expanded="false" />
-                <element signature="e#1085#1270#0#PHP" expanded="false" />
-                <element signature="e#1417#1583#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxPay.Api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/api/model/WxPay/WxPay.Api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-              <folding>
-                <element signature="e#245#483#0#PHP" expanded="false" />
-                <element signature="e#2086#2312#0#PHP" expanded="false" />
-                <element signature="n#orderQuery#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#3067#3275#0#PHP" expanded="false" />
-                <element signature="n#closeOrder#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#3974#4248#0#PHP" expanded="false" />
-                <element signature="n#refund#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#5406#5744#0#PHP" expanded="false" />
-                <element signature="n#refundQuery#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#6605#6818#0#PHP" expanded="false" />
-                <element signature="n#downloadBill#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#7418#7689#0#PHP" expanded="false" />
-                <element signature="n#micropay#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#8771#8975#0#PHP" expanded="false" />
-                <element signature="n#reverse#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#9739#10017#0#PHP" expanded="false" />
-                <element signature="n#report#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#11098#11288#0#PHP" expanded="false" />
-                <element signature="n#bizpayurl#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#11722#11982#0#PHP" expanded="false" />
-                <element signature="n#shorturl#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#12683#12879#0#PHP" expanded="false" />
-                <element signature="n#notify#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#13186#13257#0#PHP" expanded="false" />
-                <element signature="n#getNonceStr#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#13507#13550#0#PHP" expanded="false" />
-                <element signature="n#replyNotify#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#13615#13726#0#PHP" expanded="false" />
-                <element signature="n#reportCostTime#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#15168#15373#0#PHP" expanded="false" />
-                <element signature="n#postXmlCurl#0;n#WxPayApi#0;n#!!top" expanded="false" />
-                <element signature="e#16658#16681#0#PHP" expanded="false" />
-                <element signature="n#getMillisecond#0;n#WxPayApi#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="770">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -347,18 +89,18 @@
       <find>JsApiPay</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/api/validate/NewStudent.php" />
-        <option value="$PROJECT_DIR$/application/api/validate/NewStaff.php" />
         <option value="$PROJECT_DIR$/application/lib/exception/StaffMissExcepion.php" />
         <option value="$PROJECT_DIR$/application/lib/exception/InfoMissExcepion.php" />
         <option value="$PROJECT_DIR$/application/api/model/Image.php" />
         <option value="$PROJECT_DIR$/application/api/model/Student.php" />
         <option value="$PROJECT_DIR$/application/api/model/Staff.php" />
         <option value="$PROJECT_DIR$/application/api/validate/NewCourse.php" />
-        <option value="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
         <option value="$PROJECT_DIR$/application/api/model/DetailCourse.php" />
         <option value="$PROJECT_DIR$/application/api/model/Course.php" />
         <option value="$PROJECT_DIR$/application/api/validate/NewDetailCourse.php" />
@@ -376,8 +118,8 @@
         <option value="$PROJECT_DIR$/application/exam/validate/NewProblem.php" />
         <option value="$PROJECT_DIR$/application/exam/model/ProblemAnswer.php" />
         <option value="$PROJECT_DIR$/application/exam/model/Problem.php" />
-        <option value="$USER_HOME$/Desktop/WeChat-applet-master/pages/logs/logs-detail/logsDetail.js" />
-        <option value="$USER_HOME$/Desktop/WeChat_SunDay-master/pages/main/single/single.js" />
+        <option value="$PROJECT_DIR$/../WeChat-applet-master/pages/logs/logs-detail/logsDetail.js" />
+        <option value="$PROJECT_DIR$/../WeChat_SunDay-master/pages/main/single/single.js" />
         <option value="$PROJECT_DIR$/application/database.php" />
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/News.php" />
@@ -390,17 +132,20 @@
         <option value="$PROJECT_DIR$/application/lib/exception/WechatException.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/Token.php" />
         <option value="$PROJECT_DIR$/application/api/service/UserToken.php" />
-        <option value="$PROJECT_DIR$/application/api/controller/v1/User.php" />
         <option value="$PROJECT_DIR$/application/api/model/User.php" />
-        <option value="$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/lib/WxPay.Api.php" />
-        <option value="$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/WxPay.JsApiPay.php" />
-        <option value="$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/lib/WxPay.Data.php" />
-        <option value="$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/jsapi.php" />
+        <option value="$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/lib/WxPay.Api.php" />
+        <option value="$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/WxPay.JsApiPay.php" />
+        <option value="$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/lib/WxPay.Data.php" />
+        <option value="$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/jsapi.php" />
         <option value="$PROJECT_DIR$/application/api/validate/NewPay.php" />
-        <option value="$PROJECT_DIR$/application/route.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/Pay.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/Staff.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v1/Student.php" />
+        <option value="$PROJECT_DIR$/application/api/model/SigninRecord.php" />
+        <option value="$PROJECT_DIR$/application/api/validate/NewSignin.php" />
+        <option value="$PROJECT_DIR$/application/api/validate/BaseValidate.php" />
+        <option value="$PROJECT_DIR$/application/route.php" />
+        <option value="$PROJECT_DIR$/application/api/controller/v1/User.php" />
       </list>
     </option>
   </component>
@@ -417,6 +162,7 @@
     <option name="width" value="1284" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -433,23 +179,82 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="onecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onecode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="validate" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="exam" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="oc-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oc-server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="exception" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/WxpayAPI_php_v3.0.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="SearchEverywhereHistoryKey" value="route&#9;FILE&#9;file://D:/xampp/htdocs/onecode/application/route.php&#10;rout&#9;FILE&#9;file://D:/xampp/htdocs/onecode/application/route.php&#10;rou&#9;FILE&#9;file://D:/xampp/htdocs/onecode/application/route.php&#10;data&#9;FILE&#9;file://D:/xampp/htdocs/onecode/application/database.php&#10;conf&#9;FILE&#9;file://D:/xampp/htdocs/onecode/application/config.php" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -501,21 +306,23 @@
       <workItem from="1516793187541" duration="29836000" />
       <workItem from="1517666310955" duration="2147000" />
       <workItem from="1517823652482" duration="156000" />
+      <workItem from="1517846033682" duration="8282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125972000" />
+    <option name="totallyTimeSpent" value="134470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23812094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16197917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242236" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -559,7 +366,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/WxPay.JsApiPay.php</url>
+          <url>file://$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/WxPay.JsApiPay.php</url>
           <line>88</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -569,119 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/api/extra/secure.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/extra/setting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ReadHot-master/utils/ServerConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Protoss/utils/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Protoss/utils/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/weapp-quiz-master/utils/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ReadHot-master/utils/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="60" column="42" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="99" column="38" lean-forward="true" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/command.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/WeChat_SunDay-master/pages/main/single/single.js" />
-    <entry file="file://$PROJECT_DIR$/application/exam/validate/NewProblem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/exam/validate/NewSelection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/exam/validate/NewAnswer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/exam/validate/BaseProblem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/exam/model/ProblemSelection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -731,13 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/lib/exception/WeChatException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -752,7 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/index.php" />
+    <entry file="file://$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/index.php" />
     <entry file="file://$PROJECT_DIR$/application/api/model/WxPay/WxPay.Notify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -760,59 +447,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/log.php" />
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/validate/TokenGet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/WxPay.JsApiPay.php" />
-    <entry file="file://$PROJECT_DIR$/application/api/validate/NewCourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/validate/NewPay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/log.php" />
+    <entry file="file://$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/WxPay.JsApiPay.php" />
     <entry file="file://$PROJECT_DIR$/application/api/model/WxPay/WxPay.Exception.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -820,27 +456,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#121#157#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/jsapi.php" />
+    <entry file="file://$PROJECT_DIR$/../WxpayAPI_php_v3/WxpayAPI_php_v3.0.1/example/jsapi.php" />
     <entry file="file://$PROJECT_DIR$/application/api/model/WxPay/WxPay.Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <element signature="e#105#527#0#PHP" expanded="false" />
-            <element signature="e#757#923#0#PHP" expanded="false" />
-            <element signature="e#1085#1270#0#PHP" expanded="false" />
-            <element signature="e#1417#1583#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,12 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#120#148#0#PHP" expanded="true" />
-            <element signature="e#434#503#0#PHP" expanded="false" />
-            <element signature="e#1194#1232#0#PHP" expanded="false" />
-            <element signature="e#1234#1370#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,160 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="269" column="6" lean-forward="false" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
-          <folding>
-            <element signature="e#104#199#0#PHP" expanded="false" />
-            <element signature="e#255#305#0#PHP" expanded="false" />
-            <element signature="n#SetSign#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#418#458#0#PHP" expanded="false" />
-            <element signature="n#GetSign#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#525#578#0#PHP" expanded="false" />
-            <element signature="n#IsSignSet#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#665#712#0#PHP" expanded="false" />
-            <element signature="n#ToXml#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#1153#1239#0#PHP" expanded="false" />
-            <element signature="n#FromXml#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#1572#1599#0#PHP" expanded="false" />
-            <element signature="n#ToUrlParams#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#1834#1903#0#PHP" expanded="false" />
-            <element signature="n#MakeSign#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#2200#2219#0#PHP" expanded="false" />
-            <element signature="n#GetValues#0;n#WxPayDataBase#0;n#!!top" expanded="false" />
-            <element signature="e#2282#2321#0#PHP" expanded="false" />
-            <element signature="n#WxPayResults#0;n#!!top" expanded="false" />
-            <element signature="e#3522#3559#0#PHP" expanded="false" />
-            <element signature="n#WxPayNotifyReply#0;n#!!top" expanded="false" />
-            <element signature="e#4353#4393#0#PHP" expanded="false" />
-            <element signature="e#4444#4494#0#PHP" expanded="false" />
-            <element signature="n#SetAppid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#4571#4611#0#PHP" expanded="false" />
-            <element signature="n#GetAppid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#4680#4733#0#PHP" expanded="false" />
-            <element signature="n#IsAppidSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#4822#4871#0#PHP" expanded="false" />
-            <element signature="n#SetMch_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#4950#4989#0#PHP" expanded="false" />
-            <element signature="n#GetMch_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5060#5112#0#PHP" expanded="false" />
-            <element signature="n#IsMch_idSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5203#5260#0#PHP" expanded="false" />
-            <element signature="n#SetDevice_info#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5349#5396#0#PHP" expanded="false" />
-            <element signature="n#GetDevice_info#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5477#5537#0#PHP" expanded="false" />
-            <element signature="n#IsDevice_infoSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5638#5699#0#PHP" expanded="false" />
-            <element signature="n#SetNonce_str#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5784#5835#0#PHP" expanded="false" />
-            <element signature="n#GetNonce_str#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#5912#5976#0#PHP" expanded="false" />
-            <element signature="n#IsNonce_strSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6073#6122#0#PHP" expanded="false" />
-            <element signature="n#SetBody#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6197#6236#0#PHP" expanded="false" />
-            <element signature="n#GetBody#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6303#6355#0#PHP" expanded="false" />
-            <element signature="n#IsBodySet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6442#6489#0#PHP" expanded="false" />
-            <element signature="n#SetDetail#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6568#6605#0#PHP" expanded="false" />
-            <element signature="n#GetDetail#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6676#6726#0#PHP" expanded="false" />
-            <element signature="n#IsDetailSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6817#6897#0#PHP" expanded="false" />
-            <element signature="n#SetAttach#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#6976#7046#0#PHP" expanded="false" />
-            <element signature="n#GetAttach#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#7117#7200#0#PHP" expanded="false" />
-            <element signature="n#IsAttachSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#7291#7365#0#PHP" expanded="false" />
-            <element signature="n#SetOut_trade_no#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#7456#7520#0#PHP" expanded="false" />
-            <element signature="n#GetOut_trade_no#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#7603#7680#0#PHP" expanded="false" />
-            <element signature="n#IsOut_trade_noSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#7783#7863#0#PHP" expanded="false" />
-            <element signature="n#SetFee_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#7946#8016#0#PHP" expanded="false" />
-            <element signature="n#GetFee_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#8091#8174#0#PHP" expanded="false" />
-            <element signature="n#IsFee_typeSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#8269#8326#0#PHP" expanded="false" />
-            <element signature="n#SetTotal_fee#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#8411#8458#0#PHP" expanded="false" />
-            <element signature="n#GetTotal_fee#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#8535#8595#0#PHP" expanded="false" />
-            <element signature="n#IsTotal_feeSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#8692#8771#0#PHP" expanded="false" />
-            <element signature="n#SetSpbill_create_ip#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#8870#8939#0#PHP" expanded="false" />
-            <element signature="n#GetSpbill_create_ip#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#9030#9112#0#PHP" expanded="false" />
-            <element signature="n#IsSpbill_create_ipSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#9223#9333#0#PHP" expanded="false" />
-            <element signature="n#SetTime_start#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#9420#9520#0#PHP" expanded="false" />
-            <element signature="n#GetTime_start#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#9599#9712#0#PHP" expanded="false" />
-            <element signature="n#IsTime_startSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#9811#9921#0#PHP" expanded="false" />
-            <element signature="n#SetTime_expire#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#10010#10110#0#PHP" expanded="false" />
-            <element signature="n#GetTime_expire#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#10191#10304#0#PHP" expanded="false" />
-            <element signature="n#IsTime_expireSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#10405#10475#0#PHP" expanded="false" />
-            <element signature="n#SetGoods_tag#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#10560#10620#0#PHP" expanded="false" />
-            <element signature="n#GetGoods_tag#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#10697#10770#0#PHP" expanded="false" />
-            <element signature="n#IsGoods_tagSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#10867#10920#0#PHP" expanded="false" />
-            <element signature="n#SetNotify_url#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11007#11050#0#PHP" expanded="false" />
-            <element signature="n#GetNotify_url#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11129#11185#0#PHP" expanded="false" />
-            <element signature="n#IsNotify_urlSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11284#11354#0#PHP" expanded="false" />
-            <element signature="n#SetTrade_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11441#11501#0#PHP" expanded="false" />
-            <element signature="n#GetTrade_type#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11580#11653#0#PHP" expanded="false" />
-            <element signature="n#IsTrade_typeSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11752#11838#0#PHP" expanded="false" />
-            <element signature="n#SetProduct_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#11925#12001#0#PHP" expanded="false" />
-            <element signature="n#GetProduct_id#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#12080#12169#0#PHP" expanded="false" />
-            <element signature="n#IsProduct_idSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#12268#12382#0#PHP" expanded="false" />
-            <element signature="n#SetOpenid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#12461#12565#0#PHP" expanded="false" />
-            <element signature="n#GetOpenid#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#12636#12753#0#PHP" expanded="false" />
-            <element signature="n#IsOpenidSet#0;n#WxPayUnifiedOrder#0;n#!!top" expanded="false" />
-            <element signature="e#12846#12886#0#PHP" expanded="false" />
-            <element signature="n#WxPayOrderQuery#0;n#!!top" expanded="false" />
-            <element signature="e#15065#15105#0#PHP" expanded="false" />
-            <element signature="n#WxPayCloseOrder#0;n#!!top" expanded="false" />
-            <element signature="e#16811#16851#0#PHP" expanded="false" />
-            <element signature="n#WxPayRefund#0;n#!!top" expanded="false" />
-            <element signature="e#21941#21981#0#PHP" expanded="false" />
-            <element signature="n#WxPayRefundQuery#0;n#!!top" expanded="false" />
-            <element signature="e#25651#25692#0#PHP" expanded="false" />
-            <element signature="n#WxPayDownloadBill#0;n#!!top" expanded="false" />
-            <element signature="e#28414#28454#0#PHP" expanded="false" />
-            <element signature="n#WxPayReport#0;n#!!top" expanded="false" />
-            <element signature="e#35432#35472#0#PHP" expanded="false" />
-            <element signature="n#WxPayShortUrl#0;n#!!top" expanded="false" />
-            <element signature="e#37167#37207#0#PHP" expanded="false" />
-            <element signature="n#WxPayMicroPay#0;n#!!top" expanded="false" />
-            <element signature="e#44083#44121#0#PHP" expanded="false" />
-            <element signature="n#WxPayReverse#0;n#!!top" expanded="false" />
-            <element signature="e#46429#46472#0#PHP" expanded="false" />
-            <element signature="n#WxPayJsApiPay#0;n#!!top" expanded="false" />
-            <element signature="e#48803#48849#0#PHP" expanded="false" />
-            <element signature="n#WxPayBizPayUrl#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,25 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#575#902#0#PHP" expanded="false" />
-            <element signature="e#904#1103#0#PHP" expanded="false" />
-            <element signature="e#1032#1083#0#PHP" expanded="false" />
-            <element signature="e#1107#1242#0#PHP" expanded="false" />
-            <element signature="e#1244#1773#0#PHP" expanded="false" />
-            <element signature="e#1441#1506#0#PHP" expanded="false" />
-            <element signature="e#1663#1728#0#PHP" expanded="false" />
-            <element signature="e#1777#2011#0#PHP" expanded="false" />
-            <element signature="e#2013#2202#0#PHP" expanded="false" />
-            <element signature="e#2108#2175#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -1091,15 +532,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/model/Staff.php">
+    <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="264">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="21" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/validate/NewDetailCourse.php">
+    <entry file="file://$PROJECT_DIR$/application/api/model/News.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1107,10 +548,202 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/ExceptionHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/WeChatException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/NewSignin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/ErrorMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/BaseException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/SuccessMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/ParameterException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/InfoMissExcepion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/SigninRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/TokenGet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/NewCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/NewDetailCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/validate/NewNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="308">
           <caret line="19" column="6" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/NewPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/NewStaff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/NewStudent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/IDMustBePositiveInt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1120,6 +753,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/CourseDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+          <folding>
+            <element signature="e#120#161#0#PHP" expanded="true" />
+            <element signature="e#429#566#0#PHP" expanded="false" />
+            <element signature="e#568#971#0#PHP" expanded="false" />
+            <element signature="e#977#1285#0#PHP" expanded="false" />
+            <element signature="e#1290#1623#0#PHP" expanded="false" />
+            <element signature="e#1629#1877#0#PHP" expanded="false" />
+            <element signature="e#1882#2095#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
